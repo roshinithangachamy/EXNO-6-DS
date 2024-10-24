@@ -25,8 +25,6 @@ import matplotlib.pyplot as plt
 df=sns.load_dataset("tips")
 df
 
-![Screenshot 2024-10-23 113941](https://github.com/user-attachments/assets/fb73f5ee-e64d-44ee-aafb-eefc647f9472)
-
 sns.lineplot(x="total_bill",y="tip",data=df,hue="sex",linestyle='solid',legend="auto")
 
 avg_total_bill=df.groupby('day')['total_bill'].mean()
@@ -71,5 +69,24 @@ sns.boxplot(x="day", y="total_bill", hue="smoker", data=df, linewidth=2, width=0
 
 ```
 
+![Screenshot 2024-10-23 113941](https://github.com/user-attachments/assets/6aa2c654-04d8-458b-bd60-26a4f9cfda64)
+
+![Screenshot 2024-10-23 113949](https://github.com/user-attachments/assets/08e88e4e-1dc9-4509-a116-ead7df907be9)
+
+![Screenshot 2024-10-23 114004](https://github.com/user-attachments/assets/04e280ec-a231-472c-b2e4-9b5a4efa43f8)
+
+![Screenshot 2024-10-23 114014](https://github.com/user-attachments/assets/2ea5343b-34f2-4783-8311-1f1f184ae9f3)
+
+![Screenshot 2024-10-23 114022](https://github.com/user-attachments/assets/966d41b6-cc9e-43d4-a291-783f45991fcd)
+
+![Screenshot 2024-10-23 114030](https://github.com/user-attachments/assets/d30c0c7e-08ca-477c-9e16-1ae745015960)
+
+![Screenshot 2024-10-23 114043](https://github.com/user-attachments/assets/b4af58ee-9455-4db9-83ce-1d16247e6e7f)
+
+![Screenshot 2024-10-23 114051](https://github.com/user-attachments/assets/ee0cb3cd-e2cd-446c-8720-225fb5e238a7)
+
+![Screenshot 2024-10-23 114101](https://github.com/user-attachments/assets/d25d6d55-7f19-492e-8d09-cadea5fcc840)
+
+
 # Result:
- Include your result here
+ Thus, all the data visualization techniques of Seaborn has been implemented.
